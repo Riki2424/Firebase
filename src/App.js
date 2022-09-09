@@ -1,8 +1,8 @@
 import { storage } from "./firebase";
 import { ref, getDownloadURL, listAll } from "firebase/storage";
-// import { useState, useEffect } from "react";
-// import { db } from "./firebase"
-// import { collection, getDocs, onSnapshot } from "firebase/firestor";
+import { useState, useEffect } from "react";
+import { db } from "./firebase"
+import { collection, getDocs, onSnapshot } from "firebase/firestore";
 
 function App() {
   //useStateで、データをブラウザに表示
